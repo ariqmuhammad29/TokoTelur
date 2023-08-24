@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header bg-warning">
+            <h4>Form Pack</h4>
+        </div>
+        <div class="card-body">
+            <form action="<%= targetRoute %>" method="post">
+                Jenis Pack
+                <input type="text" name="nama_pack" id="nama_pack" class="form-control" value="<%= nama_pack %>"
+                    required />
+                    
+                Harga
+                <input type="number" name="harga" id="harga" class="form-control" value="<%= harga %>" required />
+
+
+                
+
+                <button type="submit" class="btn btn-success mt-2">
+                    Simpan
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
