@@ -12,7 +12,7 @@ exports.tampilanDataAdmin = async (request, response) => {
             data: dataAdmin,
             dataUser: request.session.dataUser
 
-        }
+        } 
 
         return response.render(`../views/index`, sendData)
     } catch (error) {
